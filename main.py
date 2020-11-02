@@ -9,4 +9,3 @@ if __name__ == '__main__':
     f.add()
     print(f.read())
 
-    print(help(File))

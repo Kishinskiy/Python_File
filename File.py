@@ -12,9 +12,8 @@ class File:
     """
     def __init__(self, file_name, *content):
         self.fileName = file_name
-        self.data = content
-        self.content = ""
-        self.content = self.content.join(self.data)
+        self.content = "".join(content)
+
 
     def read(self):
         """function for read from file."""
