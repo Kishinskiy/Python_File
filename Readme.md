@@ -1,5 +1,5 @@
 
-Class for write and read from file
+Class for write to and read from file
   
   Usage:
   
