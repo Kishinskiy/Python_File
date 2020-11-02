@@ -27,23 +27,19 @@ class File:
     def write(self):
         """function for write to file."""
         with open(self.fileName, "w") as file:
-            file.write(self.content)
-        return 0
+            return file.write(self.content)
 
     def write_byte(self):
         """function fo write byte to file."""
         with open(self.fileName, "wb") as file:
-            file.write(self.content.encode())
-        return 0
+            return file.write(self.content.encode())
 
     def add(self):
         """function for add new string for file"""
         with open(self.fileName, "a") as file:
-            file.write(self.content)
-        return 0
+            return file.write(self.content)
 
     def add_byte(self):
         """function for add new byte to file."""
         with open(self.fileName, "ab") as file:
-            file.write(self.content.encode())
-        return 0
+            return file.write(self.content.encode())
