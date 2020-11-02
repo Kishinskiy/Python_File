@@ -1,4 +1,3 @@
-
 class File:
     """
     Class for write and read from file
@@ -10,10 +9,10 @@ class File:
     f.write() - write to file text  "Some Content bin data\n"
     print(f.read()) - read this text from file
     """
+
     def __init__(self, file_name, *content):
         self.fileName = file_name
         self.content = "".join(content)
-
 
     def read(self):
         """function for read from file."""
